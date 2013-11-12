@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64C2323B1832E22E00603FD0 /* RecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C2323A1832E22E00603FD0 /* RecordTableViewController.m */; };
 		AC759B871831898800714C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC759B861831898800714C70 /* Foundation.framework */; };
 		AC759B891831898800714C70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC759B881831898800714C70 /* CoreGraphics.framework */; };
 		AC759B8B1831898800714C70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC759B8A1831898800714C70 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64C232391832E22E00603FD0 /* RecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewController.h; sourceTree = "<group>"; };
+		64C2323A1832E22E00603FD0 /* RecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewController.m; sourceTree = "<group>"; };
 		AC759B831831898800714C70 /* EGCO380FirstStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGCO380FirstStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC759B861831898800714C70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AC759B881831898800714C70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +117,8 @@
 		AC759B8C1831898800714C70 /* EGCO380FirstStart */ = {
 			isa = PBXGroup;
 			children = (
+				64C232391832E22E00603FD0 /* RecordTableViewController.h */,
+				64C2323A1832E22E00603FD0 /* RecordTableViewController.m */,
 				AC759B951831898800714C70 /* AppDelegate.h */,
 				AC759B961831898800714C70 /* AppDelegate.m */,
 				AC759B981831898800714C70 /* Main_iPhone.storyboard */,
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C2323B1832E22E00603FD0 /* RecordTableViewController.m in Sources */,
 				AC759BA01831898800714C70 /* ViewController.m in Sources */,
 				AC759B971831898800714C70 /* AppDelegate.m in Sources */,
 				AC759B931831898800714C70 /* main.m in Sources */,
@@ -476,6 +482,7 @@
 				AC759BBA1831898800714C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC759BBB1831898800714C70 /* Build configuration list for PBXNativeTarget "EGCO380FirstStartTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +491,7 @@
 				AC759BBD1831898800714C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
