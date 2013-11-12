@@ -11,5 +11,6 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *txtBox;
 @property (weak, nonatomic) IBOutlet UIImageView *imgeView;
+- (IBAction)pressTap:(UITapGestureRecognizer *)sender;
 
 @end

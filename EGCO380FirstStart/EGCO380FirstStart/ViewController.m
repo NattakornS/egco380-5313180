@@ -31,4 +31,9 @@ int i = 0;
 - (IBAction)unwind:(UIStoryboardSegue*)sq {
 }
 
+- (IBAction)press:(id)sender {
+    self.txtBox.text = @"CAT";
+}
+
+
 @end
